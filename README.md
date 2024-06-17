@@ -7,8 +7,10 @@ This innovative solution is more efficient, user-friendly, and effective than tr
 The chatbot uses a hybrid retrieval method to retrieve relevant resumes based on job descriptions. It employs two techniques:
 
 **Adaptive Retrieval**: The chatbot uses RAG/RAG Fusion to search for similar resumes and narrow down the pool of applicants to the most relevant profiles.
-Keyword-based Retrieval: When provided with applicant IDs, the chatbot retrieves additional information about specified candidates.
-Why Resume Screening Matters
+
+**Keyword-based Retrieval**: When provided with applicant IDs, the chatbot retrieves additional information about specified candidates.
+
+## Why Resume Screening Matters
 
 Despite the increasing number of applicants, there are limited tools that can effectively and reliably assist the screening process. Existing methods often rely on keyword-based approaches, which struggle to accurately handle the complexity of natural language in human-written documents. This project aims to address this gap by integrating LLM-based methods into the recruitment domain.
 
