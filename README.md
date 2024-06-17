@@ -38,7 +38,7 @@ Installation and Setup
 
 To set up the project locally:
 
-Clone the project: git clone https://github.com/Hungreeee/Resume-Screening-RAG-Pipeline.git
+Clone the project: git clone https://github.com/katariyaVivek/RS-RAG.git
 Install dependencies: pip install requirements.txt
 Run the Streamlit demo: streamlit run demo/interface.py
 Contributions
@@ -90,11 +90,6 @@ Faiss for vector indexing and similarity retrieval.
 Streamlit for user interface development.
 Installation and Setup
 
-To set up the project locally:
-
-Clone the project: git clone https://github.com/Hungreeee/Resume-Screening-RAG-Pipeline.git
-Install dependencies: pip install requirements.txt
-Run the Streamlit demo: streamlit run demo/interface.py
 Contributions
 
 The demo chatbot is still a work in progress, and any suggestions, feedback, or contributions are highly appreciated! Please share them at the project's issue tracker.
