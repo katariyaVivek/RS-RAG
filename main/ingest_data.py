@@ -5,7 +5,7 @@ from langchain_community.vectorstores.faiss import DistanceStrategy
 from langchain_community.document_loaders import DataFrameLoader
 
 DATA_PATH = "../data/main-data/synthetic-resumes.csv"
-FAISS_PATH = "../vectorstore"
+FAISS_PATH = "../Vectorstore"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
