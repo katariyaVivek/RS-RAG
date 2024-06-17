@@ -6,7 +6,7 @@ from langchain.schema import HumanMessage, SystemMessage, AIMessage
 
 
 DATA_PATH = "./data/main-data/synthetic-resumes.csv"
-FAISS_PATH = "./vectorstore"
+FAISS_PATH = "./Vectorstore"
 RAG_K_THRESHOLD = 5
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL = "gpt-35-turbo"
