@@ -23,7 +23,7 @@ sys.path.append(os.path.dirname(CURRENT_DIR))
 
 
 DATA_PATH = CURRENT_DIR + "/../data/main-data/synthetic-resumes.csv"
-FAISS_PATH = CURRENT_DIR + "/../vectorstore"
+FAISS_PATH = CURRENT_DIR + "/../Vectorstore"
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 welcome_message = """
