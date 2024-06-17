@@ -1,8 +1,8 @@
-# Introducing a Chatbot for Resume Screening
+## Introducing a Chatbot for Resume Screening
 
 This innovative solution is more efficient, user-friendly, and effective than traditional keyword-based methods.
 
-# How it Works
+## How it Works
 
 The chatbot uses a hybrid retrieval method to retrieve relevant resumes based on job descriptions. It employs two techniques:
 
