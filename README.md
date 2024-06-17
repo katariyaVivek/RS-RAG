@@ -40,7 +40,7 @@ Installation and Setup
 ````
 Clone the project: git clone https://github.com/katariyaVivek/RS-RAG.git
 Install dependencies: pip install requirements.txt
-Run the Streamlit demo: streamlit run demo/interface.py
+Run the Streamlit demo: streamlit run main/chatBot_interface.py
 ````
 ## Contributions
 
