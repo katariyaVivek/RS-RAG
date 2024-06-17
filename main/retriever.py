@@ -13,7 +13,7 @@ from langchain.tools.render import format_tool_to_openai_function
 
 
 DATA_PATH = "./data/main-data/synthetic-resumes.csv"
-FAISS_PATH = "./vectorstore"
+FAISS_PATH = "./Vectorstore"
 RAG_K_THRESHOLD = 5
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL = "gpt-35-turbo"
@@ -37,7 +37,7 @@ class JobDescription(BaseModel):
 
 class RAGRetriever():
   def __init__(self, vectorstore_db, df):
-    self.vectorstore = vectorstore_db
+    self.Vectorstore = vectorstore_db
     self.df = df
 
 
@@ -53,7 +53,7 @@ class RAGRetriever():
 
 
   def __retrieve_docs_id__(self, question: str, k=50):
-    docs_score = self.vectorstore.similarity_search_with_score(question, k=k)
+    docs_score = self.Vectorstore.similarity_search_with_score(question, k=k)
     docs_score = {str(doc.metadata["ID"]): score for doc, score in docs_score}
     return docs_score
 
